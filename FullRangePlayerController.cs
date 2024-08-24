@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class FullRangePlayerController : MonoBehaviour
 {
     private CharacterController controller;
     
@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     
    void Start()
     {
-        controller = GetComponent<CharacterController>(); // Works fine
+        controller = GetComponent<CharacterController>();
     }
 
     void Update()
