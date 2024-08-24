@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class DestoryOutOfBounds : MonoBehaviour
@@ -6,12 +5,12 @@ public class DestoryOutOfBounds : MonoBehaviour
     public float lowBound;
     public float topBound;
 
-    private GameManager gameManager;
+    //DeleteCommentWhenGameManagerIsReady// private GameManager gameManager;
 
     void Start()
     {
         // Looks for the game object Game Manager
-        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+        //DeleteCommentWhenGameManagerIsReady// gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
     }
 
     void Update()

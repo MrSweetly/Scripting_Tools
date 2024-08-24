@@ -26,6 +26,6 @@ public class AgentSpawnManager : MonoBehaviour
       // Select Agents in index to spawn at random
       int agentIndex = Random.Range(0, agentPrefabs.Length);
       // Spawn random Agents from index at a positon in the correct rotation
-      Instantiate(agentPrefabs[agentIndex], spawnPos, ufoPrefabs[agentIndex].transform.rotation);
+      Instantiate(agentPrefabs[agentIndex], spawnPos, agentPrefabs[agentIndex].transform.rotation);
    }
 }

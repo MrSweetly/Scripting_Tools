@@ -9,7 +9,7 @@ public class EnemyStopIfClose : MonoBehaviour
     [SerializeField] private float stoppingDis;
     void Start()
     {
-        target = PlayerManager.instance.player.transform;
+        target = PlayerManager.instace.player.transform;
         agent = GetComponent<NavMeshAgent>(); }
     
     void Update()
